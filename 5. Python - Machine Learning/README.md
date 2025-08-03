@@ -1,7 +1,5 @@
-# IT-Academy-SQL-Power-BI-Python
-Data Analyst Portfolio - IT Academy
+# Python - Machine Learning - Assignment 10
 
-5. Python - Machine Learning - Assignment 10:
 Data Preprocessing
 - Categorical encoding: OneHotEncoder (for MLP/SVC pipelines)
 - Feature scaling: RobustScaler (for numerical features like amount)
