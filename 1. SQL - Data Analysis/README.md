@@ -1,7 +1,5 @@
 ### 🔍 1. SQL - Data Analysis (Assignment 4)
 
-See detailed README >
-
 **Database Expertise:**
 - Data Modeling & Schema Design
 - Data Retrieval with Complex Joins
