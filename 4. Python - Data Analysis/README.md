@@ -1,52 +1,15 @@
-# Python - Data Analysis - Assignment 8:
+### 📈 4. Python - Data Analysis (Assignment 8)
 
-**Core Technical Skills**
+**Analytics Workflow:**
+- MySQL → Python Pipeline: Database connection (mysql-connector-python), environment variable management, SQL query execution
+- Pandas Data Manipulation: Data loading, merging, transformation, and feature engineering (DateTime operations, age calculation)
+- Statistical Analysis: Correlation analysis (Spearman/Pearson), normality testing, aggregation methods (groupby, sum, mean)
+- Analytical Capabilities: Multi-variable analysis, geospatial segmentation, time-series analysis, outlier detection
 
-- Database Integration
-  - MySQL connection using mysql-connector-python
-  - Environment variable management with python-dotenv
-  - SQL query execution and data extraction
+**Advanced Visualization:**
+- Statistical Plotting: Seaborn regression plots, boxplots, violinplots, heatmaps, and multi-plot systems (FacetGrid, pairplot)
+- Interactive Charts: Plotly sunburst and other interactive visualizations
+- Custom Styling: Matplotlib customization for labels, legends, color theming, and layout control
+- Data Storytelling: Interpretation and contextual justification of visualizations for business insights
 
-- Data Manipulation
-  - Pandas for data loading, merging (pd.merge()), and transformation
-  - DateTime operations (dt.year, dt.month)
-  - Feature engineering (e.g., calculating age from birth dates)
-
-- Data Visualization
-  - Matplotlib: Custom bar plots, labels, legends
-  - Seaborn:
-    - Statistical plots (regplot, boxplot, violinplot)
-    - Multi-plot systems (lmplot, pairplot, FacetGrid)
-    - Heatmaps for correlation matrices
-  - Plotly: Interactive sunburst charts
-    
-- Statistical Analysis
-  - Correlation analysis (Spearman/Pearson)
-  - Normality testing (shapiro from SciPy)
-  - Aggregation methods (groupby, sum, mean)
-
-- Data Storytelling
-  - Interpretation of visualizations
-  - Contextual justification for graph choices
-  - Business-relevant insights extraction
-
-- Key Python Libraries
-  - pandas (DataFrames, data wrangling)
-  - matplotlib & seaborn (visualization)
-  - plotly (interactive charts)
-  - mysql-connector (database interaction)
-  - scipy (statistical tests)
-  - python-dotenv (environment management)
-
-- Analytical Capabilities
-  - Multi-variable analysis (3+ dimensions)
-  - Geospatial data segmentation (country-level)
-  - Time-series analysis (year/month trends)
-  - Outlier detection (boxplots/stripplots)
-  - Comparative analysis across categories
-
-- Notable Technical Highlights
-  - Complex visualizations: Sunburst, violin-boxplot hybrids, FacetGrids
-  - Database-to-Visualization Pipeline: End-to-end workflow from SQL to insights
-  - Statistical Rigor: Normality checks and appropriate correlation methods
-  - Custom Styling: Color theming, annotation positioning, layout control
+*Note: This section completes the integrated e-commerce database project spanning assignments 4, 5, 6, and 8, focusing on advanced analytics and visualization.*
