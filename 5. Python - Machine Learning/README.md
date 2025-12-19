@@ -1,7 +1,5 @@
 ### 🤖 5. Python - Machine Learning (Assignment 10)
 
-See detailed README >
-
 **Fraud Detection System:**
 
 **Data Preprocessing & Feature Engineering:**
