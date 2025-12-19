@@ -1,31 +1,37 @@
-# Python - Machine Learning - Assignment 10
+### 🤖 5. Python - Machine Learning (Assignment 10)
 
-- Data Preprocessing
-  - Categorical encoding: OneHotEncoder (for MLP/SVC pipelines)
-  - Feature scaling: RobustScaler (for numerical features like amount)
-  - Train-test splitting: train_test_split with stratify.
-  - Feature Engineering
-  
-- Key Algorithms
-  - CatBoost: CatBoostClassifier (with native categorical handling)
-  - Neural Networks: MLPClassifier
-  - Support Vector Machines: SVC
+See detailed README >
 
-- Model Evaluation
-  - Metrics: Precision, Recall, F1-Score (classification_report)
-  - AUC-ROC & AUC-PR: roc_auc_score, average_precision_score
-  - Confusion Matrix: confusion_matrix + seaborn.heatmap visualization
-  - Precision-Recall Curves: precision_recall_curve
+**Fraud Detection System:**
 
-- Handling Imbalanced Data
-  - SMOTE: For oversampling minority class (handling categorical features)
-  - Class weighting: class_weights in CatBoost
+**Data Preprocessing & Feature Engineering:**
+- Categorical encoding using OneHotEncoder (for MLP/SVC pipelines)
+- Feature scaling with RobustScaler (for numerical features like transaction amount)
+- Train-test splitting with stratification to maintain class distribution
+- Feature engineering to create relevant predictors
 
-- Pipelines & Workflow
-  - Pipeline + ColumnTransformer for preprocessing
-  - Custom evaluation functions for metrics/storage
-  - Comparative model analysis with AUC-PR plots
+**Algorithm Implementation:**
+- **CatBoost**: CatBoostClassifier with native categorical feature handling
+- **Neural Networks**: MLPClassifier for complex pattern recognition
+- **Support Vector Machines**: SVC for classification with optimal hyperplanes
 
-- Key Libraries
-  - Core: scikit-learn, pandas, numpy, matplotlib, seaborn
-  - Specialized: catboost, imbalanced-learn (SMOTE)
+**Model Evaluation & Metrics:**
+- Precision, Recall, F1-Score analysis (comprehensive classification reports)
+- AUC-ROC & AUC-PR evaluation: roc_auc_score and average_precision_score
+- Confusion Matrix visualization using seaborn.heatmap
+- Precision-Recall Curves for detailed performance assessment
+
+**Handling Class Imbalance:**
+- **SMOTE**: Synthetic Minority Over-sampling Technique for oversampling the minority class
+- **Class weighting**: Implementation in CatBoost to adjust for imbalanced distributions
+
+**ML Pipeline & Workflow:**
+- End-to-end pipelines using Pipeline + ColumnTransformer for preprocessing
+- Custom evaluation functions for consistent metrics tracking and storage
+- Comparative model analysis with AUC-PR plots for algorithm selection
+
+**Key Technical Stack:**
+- Core libraries: scikit-learn, pandas, numpy, matplotlib, seaborn
+- Specialized: catboost, imbalanced-learn (for SMOTE implementation)
+
+*Note: This standalone machine learning project focuses on credit card fraud detection, representing an independent application of advanced predictive modeling techniques.*
