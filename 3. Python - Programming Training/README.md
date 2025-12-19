@@ -1,33 +1,13 @@
-# Python - Programming Training  - Assignment 7:
+### 🐍 3. Python - Programming (Assignment 7)
 
-- Input Validation & Error Handling
-  - Numeric input with range checks
-  - Categorical input with valid option verification
-  - try/except blocks for type conversion errors
+**Core Programming:**
+- Input Validation & Error Handling: numeric range checks, categorical option verification, try/except blocks for type conversion
+- Data Structure Operations: dictionary creation/inversion/nesting, list comprehensions, tuple processing, and collections usage (Counter, defaultdict)
+- String Processing & Text Cleaning: regex-based operations, case normalization, punctuation removal
+- Control Flow Implementation: conditional logic (if/elif/else) and loop constructs (for, while)
 
-- Data Structure Manipulation
-  - Dictionary operations (creation, inversion, nested dicts)
-  - List comprehensions and transformations
-  - Tuple unpacking and processing
+**System Design:**
+- Modular Architecture: function decomposition, separation of concerns, reusable helper functions
+- File I/O Operations: text file reading, context managers (with blocks)
 
-- String Processing
-  - Regex-based text cleaning
-  - Case normalization
-  - Punctuation removal
-
-- File I/O Operations
-  - Reading text files
-  - Context managers (with blocks)
-
-- Modular Programming
-  - Function decomposition
-  - Separation of concerns
-  - Reusable helper functions
-
-- Collections Usage
-  - Counter for frequency analysis
-  - defaultdict for automatic list creation
-
-- Control Flow
-  - Conditional logic (if/elif/else)
-  - Looping constructs (while, for)
+*Note: This section focuses on foundational Python programming skills, establishing core competencies for subsequent data analysis and machine learning modules.*
